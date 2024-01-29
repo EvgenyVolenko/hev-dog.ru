@@ -55,7 +55,7 @@ li::-webkit-details-marker {
 }
 
 .header {
-  background-color: #EADCC5;
+  background-color: #F4EAE0;
 }
 .header__images {
   display: flex;
@@ -68,14 +68,40 @@ li::-webkit-details-marker {
   padding-top: 8px;
   padding-bottom: 8px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-weight: 700;
   font-size: 15px;
-  color: #00457C;
-  background-color: #E5D2B7;
+  color: #462e25;
 }
 .header__menu__item {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #281900;
+  background-color: #F4DFC8;
+  border-radius: 10px;
+  width: 108px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.header__menu__item:hover {
+  color: #000000;
+  background-color: #F4EAE0;
+  transform: translateY(-4px);
+}
+.header__menu__item:active {
+  background-color: #000000;
+  color: #FAF6F0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 20% 50% 30%;
+  background-color: #F4DFC8;
+  height: 100px;
 }
 
 .footer {
@@ -84,10 +110,10 @@ li::-webkit-details-marker {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #2e2402;
+  background-color: #000000;
 }
 .footer__text {
-  color: white;
+  color: #FAF6F0;
 }
 .footer__icons {
   display: flex;
@@ -96,8 +122,11 @@ li::-webkit-details-marker {
 }
 .footer__icons__item {
   width: 32px;
-  color: #00457C;
 }
 .footer__icons__item path {
-  fill: white;
+  fill: #FAF6F0;
+  transition: 0.3s;
+}
+.footer__icons__item:hover path {
+  fill: #F4EAE0;
 }/*# sourceMappingURL=style.css.map */
