@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Noto Sans';
 }
 
 html,
@@ -56,17 +57,58 @@ li::-webkit-details-marker {
 }
 
 .header {
+
     background-color: $mainBackgroundColor;
+
+    &__images {
+        display: flex;
+        flex-direction: column;
+
+        &_logo {
+            padding: 8px calc((100% - 790px)/2);
+        }
+    }
+
+    &__menu {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+        font-size: 15px;
+        color: #00457C;
+        background-color: $slaveBackgroundColor;
+
+        &__item {
+            cursor: pointer;
+        }
+    }
 }
 
-.temp-text {
-    color: green;
-    font-size: 35px;
+.footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2e2402;
 
-    &_position {
+    &__text {
+        color: white;
+    }
+
+    &__icons {
         display: flex;
         align-items: center;
-        justify-content: center;
-        height: 50vh;
+        gap: 16px;
+
+        &__item {
+            width: 32px;
+            color: #00457C;
+        }
+
+        &__item path {
+            fill: white;
+        }
     }
 }

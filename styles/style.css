@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Noto Sans";
 }
 
 html,
@@ -56,14 +57,47 @@ li::-webkit-details-marker {
 .header {
   background-color: #EADCC5;
 }
-
-.temp-text {
-  color: green;
-  font-size: 35px;
+.header__images {
+  display: flex;
+  flex-direction: column;
 }
-.temp-text_position {
+.header__images_logo {
+  padding: 8px calc((100% - 790px) / 2);
+}
+.header__menu {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 15px;
+  color: #00457C;
+  background-color: #E5D2B7;
+}
+.header__menu__item {
+  cursor: pointer;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 50vh;
+  justify-content: space-between;
+  background-color: #2e2402;
+}
+.footer__text {
+  color: white;
+}
+.footer__icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.footer__icons__item {
+  width: 32px;
+  color: #00457C;
+}
+.footer__icons__item path {
+  fill: white;
 }/*# sourceMappingURL=style.css.map */
