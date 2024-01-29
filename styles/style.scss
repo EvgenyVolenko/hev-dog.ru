@@ -132,6 +132,11 @@ li::-webkit-details-marker {
 
         &__item {
             width: 32px;
+            transition: 0.3s;
+
+            &:hover {
+                transform: translateY(-4px);
+            }
         }
 
         &__item path {

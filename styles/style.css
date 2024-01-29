@@ -122,6 +122,10 @@ li::-webkit-details-marker {
 }
 .footer__icons__item {
   width: 32px;
+  transition: 0.3s;
+}
+.footer__icons__item:hover {
+  transform: translateY(-4px);
 }
 .footer__icons__item path {
   fill: #FAF6F0;
