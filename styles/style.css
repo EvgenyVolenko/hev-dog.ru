@@ -1,3 +1,44 @@
+.dog {
+  background-color: #F4DFC8;
+  color: #462e25;
+}
+.dog__head {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+.dog__main {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  text-align: right;
+}
+.dog__main img {
+  width: 70%;
+  height: 100%;
+}
+.dog__main__info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.dog__main__birthday {
+  color: #000000;
+  font-weight: 700;
+}
+.dog__main__heading {
+  color: #000000;
+  font-weight: 700;
+}
+.dog__main__owner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 * {
   padding: 0;
   margin: 0;
