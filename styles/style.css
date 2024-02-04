@@ -38,6 +38,154 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+.dog__pedigree {
+  margin-top: 16px;
+  padding-top: 16px;
+  background-color: #F4EAE0;
+}
+.dog__pedigree__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.dog__pedigree__box {
+  display: grid;
+  align-items: stretch;
+  gap: 8px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: repeat(16, 64px);
+}
+.dog__pedigree__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  border: 1px dotted #462e25;
+}
+.dog__pedigree__item_1_50 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 9;
+  align-self: center;
+}
+.dog__pedigree__item_2_50 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 9;
+  grid-row-end: 17;
+  align-self: center;
+}
+.dog__pedigree__item_1_25 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  align-self: center;
+}
+.dog__pedigree__item_2_25 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 9;
+  align-self: center;
+}
+.dog__pedigree__item_3_25 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 13;
+  align-self: center;
+}
+.dog__pedigree__item_4_25 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 13;
+  grid-row-end: 17;
+  align-self: center;
+}
+.dog__pedigree__item_1_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-self: center;
+}
+.dog__pedigree__item_2_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  align-self: center;
+}
+.dog__pedigree__item_3_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  align-self: center;
+}
+.dog__pedigree__item_4_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  align-self: center;
+}
+.dog__pedigree__item_5_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  align-self: center;
+}
+.dog__pedigree__item_6_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 11;
+  grid-row-end: 13;
+  align-self: center;
+}
+.dog__pedigree__item_7_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 13;
+  grid-row-end: 15;
+  align-self: center;
+}
+.dog__pedigree__item_8_12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 15;
+  grid-row-end: 17;
+  align-self: center;
+}
+.dog__offspring {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.dog__offspring__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.dog__offspring__box {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 8px;
+  grid-template-columns: auto auto auto;
+}
+.dog__offspring__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  border: 1px dotted #462e25;
+}
 
 * {
   padding: 0;

@@ -44,4 +44,92 @@
             justify-content: flex-end;
         }
     }
+
+    &__pedigree {
+        margin-top: 16px;
+        padding-top: 16px;
+        background-color: $slaveBackgroundColor;
+
+        &__heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: $footerBackground;
+            padding-bottom: 8px;
+        }
+
+        &__box {
+            display: grid;
+            align-items: stretch;
+            gap: 8px;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: repeat(16, 64px);
+        }
+
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 64px;
+            border: 1px dotted $mainText;
+
+            @for $i from 0 through 1 {
+                &_#{$i + 1}_50 {
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                    grid-row-start: 1 + $i * 8;
+                    grid-row-end: 9 + $i * 8;
+                    align-self: center;
+                }
+            }
+
+            @for $i from 0 through 3 {
+                &_#{$i + 1}_25 {
+                    grid-column-start: 2;
+                    grid-column-end: 3;
+                    grid-row-start: 1 + $i * 4;
+                    grid-row-end: 5 + $i * 4;
+                    align-self: center;
+                }
+            }
+
+            @for $i from 0 through 7 {
+                &_#{$i + 1}_12 {
+                    grid-column-start: 3;
+                    grid-column-end: 4;
+                    grid-row-start: 1 + $i * 2;
+                    grid-row-end: 3 + $i * 2;
+                    align-self: center;
+                }
+            }
+        }
+    }
+
+    &__offspring {
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &__heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: $footerBackground;
+            padding-bottom: 8px;
+        }
+
+        &__box {
+            display: grid;
+            flex-wrap: wrap;
+            gap: 8px;
+            grid-template-columns: auto auto auto;
+        }
+
+        &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 64px;
+            border: 1px dotted $mainText;
+        }
+    }
 }
