@@ -132,4 +132,32 @@
             border: 1px dotted $mainText;
         }
     }
+
+    &__gallery {
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &__heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: $footerBackground;
+            padding-bottom: 8px;
+        }
+
+        &__box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        &__item {
+            width: 30%;
+        }
+
+        &__item img {
+            width: 100%;
+        }
+    }
 }

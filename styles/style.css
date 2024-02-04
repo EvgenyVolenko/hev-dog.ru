@@ -186,6 +186,29 @@
   height: 64px;
   border: 1px dotted #462e25;
 }
+.dog__gallery {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.dog__gallery__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.dog__gallery__box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.dog__gallery__item {
+  width: 30%;
+}
+.dog__gallery__item img {
+  width: 100%;
+}
 
 * {
   padding: 0;
