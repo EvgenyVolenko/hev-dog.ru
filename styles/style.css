@@ -210,6 +210,41 @@
   width: 100%;
 }
 
+.dogs {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.dogs_veterans {
+  padding-top: 32px;
+  border-top: 1px solid #F4EAE0;
+}
+.dogs__head {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.dogs__gallery {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.dogs__item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 30%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+.dogs__item img {
+  width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -262,8 +297,8 @@ li::-webkit-details-marker {
 }
 
 .center {
-  padding-left: calc(50% - 570px);
-  padding-right: calc(50% - 570px);
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
 }
 
 .header {

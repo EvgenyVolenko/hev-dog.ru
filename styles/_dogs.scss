@@ -1,0 +1,34 @@
+.dogs {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &_veterans {
+        padding-top: 32px;
+        border-top: 1px solid $slaveBackgroundColor;
+    }
+
+    &__head {
+        @include h1Headers;
+    }
+
+    &__gallery {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        flex-wrap: wrap;
+
+
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        width: 30%;
+        @include h3Headers;
+    }
+
+    &__item img {
+        width: 100%;
+    }
+}

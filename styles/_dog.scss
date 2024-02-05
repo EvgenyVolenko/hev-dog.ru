@@ -51,11 +51,7 @@
         background-color: $slaveBackgroundColor;
 
         &__heading {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 700;
-            color: $footerBackground;
-            padding-bottom: 8px;
+            @include h2Headers;
         }
 
         &__box {
@@ -110,11 +106,7 @@
         padding-bottom: 16px;
 
         &__heading {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 700;
-            color: $footerBackground;
-            padding-bottom: 8px;
+            @include h2Headers;
         }
 
         &__box {
@@ -138,11 +130,7 @@
         padding-bottom: 16px;
 
         &__heading {
-            text-align: center;
-            font-size: 24px;
-            font-weight: 700;
-            color: $footerBackground;
-            padding-bottom: 8px;
+            @include h2Headers;
         }
 
         &__box {

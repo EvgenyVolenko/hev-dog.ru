@@ -1,0 +1,22 @@
+@mixin h1Headers {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: $footerBackground;
+    padding-bottom: 8px;
+}
+
+@mixin h2Headers {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: $footerBackground;
+    padding-bottom: 8px;
+}
+
+@mixin h3Headers {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: $footerBackground;
+}
