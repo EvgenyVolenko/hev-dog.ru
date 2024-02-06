@@ -20,3 +20,9 @@
     font-weight: 700;
     color: $footerBackground;
 }
+
+@mixin h4Headers {
+    font-size: 16px;
+    font-weight: 600;
+    color: $footerBackground;
+}

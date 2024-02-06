@@ -245,6 +245,82 @@
   width: 100%;
 }
 
+.litters {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.litters__head {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.litters__item__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.litters__item__birthday {
+  color: initial;
+  text-align: center;
+}
+.litters__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+  justify-content: center;
+}
+.litters__item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #F4EAE0;
+  padding: 8px;
+}
+.litters__item__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.litters__item__parents {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.litters__item__parents img {
+  width: 100%;
+}
+.litters__item__parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.litters__item__parent__name {
+  text-align: right;
+}
+.litters__item__puppies {
+  padding-top: 16px;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.litters__item__gender {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+.litters__item__pup {
+  text-align: right;
+}
+
 * {
   padding: 0;
   margin: 0;
