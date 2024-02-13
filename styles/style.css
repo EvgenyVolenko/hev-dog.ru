@@ -321,6 +321,29 @@
   text-align: right;
 }
 
+.video {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.video__item {
+  width: 560px;
+}
+.video__item__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 8px;
+  height: 72px;
+}
+.video__item__text {
+  text-align: justify;
+}
+
 * {
   padding: 0;
   margin: 0;

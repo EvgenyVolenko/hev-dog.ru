@@ -1,0 +1,21 @@
+.video {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+    &__item {
+        width: 560px;
+
+        &__heading {
+            @include h2Headers;
+            height: 72px;
+        }
+
+        &__text {
+            text-align: justify;
+        }
+    }
+}
