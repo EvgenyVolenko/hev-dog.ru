@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Noto_Sans_My";
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/NotoSansDisplay-Thin.woff2") format("woff2"), url("../fonts/NotoSansDisplay-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: "Noto_Sans_My";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/NotoSansDisplay-Light.woff2") format("woff2"), url("../fonts/NotoSansDisplay-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Noto_Sans_My";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/NotoSansDisplay-Medium.woff2") format("woff2"), url("../fonts/NotoSansDisplay-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Noto_Sans_My";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/NotoSansDisplay-Bold.woff2") format("woff2"), url("../fonts/NotoSansDisplay-Bold.woff") format("woff");
+}
 .dog {
   background-color: #F4DFC8;
   color: #462e25;
@@ -347,7 +375,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Noto Sans";
+  font-family: "Noto_Sans_My", sans-serif;
 }
 
 html,
@@ -383,6 +411,10 @@ button {
   vertical-align: top;
   transition: none;
   text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
 
 summary,
