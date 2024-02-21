@@ -452,8 +452,8 @@ li::-webkit-details-marker {
   color: #462e25;
 }
 .header__menu__item a {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
