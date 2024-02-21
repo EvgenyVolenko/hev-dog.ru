@@ -451,7 +451,7 @@ li::-webkit-details-marker {
   font-size: 15px;
   color: #462e25;
 }
-.header__menu__item {
+.header__menu__item a {
   padding-top: 4px;
   padding-bottom: 4px;
   display: flex;
@@ -465,12 +465,12 @@ li::-webkit-details-marker {
   cursor: pointer;
   transition: 0.3s;
 }
-.header__menu__item:hover {
+.header__menu__item a:hover {
   color: #000000;
   background-color: #F4EAE0;
   transform: translateY(-4px);
 }
-.header__menu__item:active {
+.header__menu__item a:active {
   background-color: #000000;
   color: #FAF6F0;
 }
