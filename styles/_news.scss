@@ -1,0 +1,42 @@
+.news {
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    &__head {
+        @include h1Headers;
+    }
+
+    &__item {
+
+        &[open]>&__heading::before {
+            transform: rotate(0);
+        }
+
+        &__heading {
+
+            @include h3Headers;
+            text-align: start;
+            display: flex;
+
+            &::before {
+                display: inline;
+                content: "";
+                padding-left: 16px;
+                background-position: center;
+                background-image: url("../img/arrow.svg");
+                transform: rotate(-90deg);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &__text {
+            padding-top: 8px;
+            padding-left: 16px;
+            text-align: justify;
+        }
+    }
+}
