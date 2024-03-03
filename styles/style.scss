@@ -76,8 +76,11 @@ li::-webkit-details-marker {
         display: flex;
         flex-direction: column;
 
+
         &_logo {
-            padding: 8px calc((100% - 790px)/2);
+
+            // padding: 8px calc((100% - 790px)/2);
+            padding: 16px 0;
         }
     }
 
@@ -97,8 +100,8 @@ li::-webkit-details-marker {
             justify-content: center;
             align-items: center;
             box-sizing: border-box;
-            border: 1px solid #281900;
-            background-color: $mainBackgroundColor;
+            // border: 1px solid #281900;
+            // background-color: $mainBackgroundColor;
             border-radius: 10px;
             width: 108px;
             cursor: pointer;
