@@ -1,0 +1,41 @@
+.contacts {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    &__header {
+        @include h1Headers;
+    }
+
+    &__person-name {
+        // @include h1Headers;
+        text-align: center;
+    }
+
+    &__contact-type {
+        &__heading {
+            padding-top: 16px;
+            padding-bottom: 16px;
+            // @include h3Headers;
+            text-align: center;
+        }
+
+        &__item {
+            text-align: center;
+        }
+
+        &__list {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__telegram-color svg path {
+        fill: #27a7e7;
+    }
+
+    &__vk-color svg path {
+        fill: #0077FF;
+    }
+}

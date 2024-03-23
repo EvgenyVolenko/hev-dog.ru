@@ -7,6 +7,7 @@
 @import 'video';
 @import 'news';
 @import 'news-item';
+@import 'contacts';
 
 * {
     padding: 0;
@@ -102,8 +103,8 @@ li::-webkit-details-marker {
             box-sizing: border-box;
             // border: 1px solid #281900;
             // background-color: $mainBackgroundColor;
-            border-radius: 10px;
-            width: 108px;
+            // border-radius: 10px;
+            // width: 108px;
             cursor: pointer;
             transition: 0.3s;
 
@@ -146,6 +147,7 @@ li::-webkit-details-marker {
         gap: 16px;
 
         &__item {
+            padding-top: 6px;
             width: 32px;
             transition: 0.3s;
 
@@ -157,10 +159,6 @@ li::-webkit-details-marker {
         &__item path {
             fill: $slaveText;
             transition: 0.3s;
-        }
-
-        &__item:hover path {
-            fill: $slaveBackgroundColor;
         }
     }
 }

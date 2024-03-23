@@ -249,7 +249,7 @@
 .dogs__head {
   text-align: center;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
   padding-bottom: 8px;
 }
@@ -280,7 +280,7 @@
 .litters__head {
   text-align: center;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
   padding-bottom: 8px;
 }
@@ -382,7 +382,7 @@
 .news__head {
   text-align: center;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
   padding-bottom: 8px;
 }
@@ -439,6 +439,41 @@
 }
 .news-item__item__video {
   gap: 32px;
+}
+
+.contacts {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.contacts__header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 8px;
+}
+.contacts__person-name {
+  text-align: center;
+}
+.contacts__contact-type__heading {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+.contacts__contact-type__item {
+  text-align: center;
+}
+.contacts__contact-type__list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.contacts__telegram-color svg path {
+  fill: #27a7e7;
+}
+.contacts__vk-color svg path {
+  fill: #0077FF;
 }
 
 * {
@@ -527,8 +562,6 @@ li::-webkit-details-marker {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  border-radius: 10px;
-  width: 108px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -566,6 +599,7 @@ li::-webkit-details-marker {
   gap: 16px;
 }
 .footer__icons__item {
+  padding-top: 6px;
   width: 32px;
   transition: 0.3s;
 }
@@ -575,7 +609,4 @@ li::-webkit-details-marker {
 .footer__icons__item path {
   fill: #FAF6F0;
   transition: 0.3s;
-}
-.footer__icons__item:hover path {
-  fill: #F4EAE0;
 }/*# sourceMappingURL=style.css.map */
