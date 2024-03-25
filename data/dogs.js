@@ -19,13 +19,19 @@ const dogsData = `
                 "Чемпион РКФ",
                 "Чемпион НКП (по набору сертификатов)"
             ],
+        "dog_checks": [],
+        "dog_trainings":[],
         "dog_health":
             [
                 "BST-1",
                 "HD-В",
                 "vWd-clear"
             ],
-        "dog_owner": "Сорокина О.Д.",
+        "dog_owner": 
+            [
+                "Сорокина О.Д.", 
+                "Москва"
+            ],
         "dog_imgs": 
             [
                 "./img/Linkor_HEV/main.jpg",
@@ -47,8 +53,18 @@ const dogsData = `
         "dog_dad_id": null,
         "dog_mom_id": null,
         "dog_progress": [],
+        "dog_checks": 
+            [
+                "Проверка 1"
+            ],
+        "dog_trainings":
+            [
+                "Тренировка 1",
+                "Тренировка 2",
+                "Тренировка 3"
+            ],
         "dog_health": [],
-        "dog_owner": null,
+        "dog_owner": [],
         "dog_imgs": 
             [
                 "./img/kuziya_vhev_big.jpg"
@@ -62,8 +78,10 @@ const dogsData = `
         "dog_dad_id": null,
         "dog_mom_id": null,
         "dog_progress": [],
+        "dog_checks": [],
+        "dog_trainings":[],
         "dog_health": [],
-        "dog_owner": null,
+        "dog_owner": [],
         "dog_imgs": 
             [
                 "./img/female.jpg"
