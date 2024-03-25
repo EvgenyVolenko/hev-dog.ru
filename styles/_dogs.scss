@@ -28,5 +28,10 @@
 
     &__item img {
         width: 100%;
+        display: block;
+        // max-width: 230px;
+        max-height: 300px;
+        height: auto;
+        object-fit: cover;
     }
 }

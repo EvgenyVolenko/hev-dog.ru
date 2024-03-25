@@ -271,6 +271,11 @@
 }
 .dogs__item img {
   width: 100%;
+  display: block;
+  max-height: 300px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .litters {
