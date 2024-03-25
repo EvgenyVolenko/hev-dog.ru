@@ -4,6 +4,8 @@ const dogsData = `
         "id": 1,
         "dog_name": "Linkor vom Haus Erfullungen Vunschen",
         "dog_birthday": "07.06.2021",
+        "dog_death": null,
+        "dog_death_cause": null,
         "dog_gender": "male",
         "dog_dad_id": 2,
         "dog_mom_id": 3,
@@ -38,18 +40,14 @@ const dogsData = `
     {
         "id": 2,
         "dog_name": "Livonija Baron Amber Amulet",
-        "dog_birthday": null,
+        "dog_birthday": "01.01.2000",
+        "dog_death": "01.01.2012",
+        "dog_death_cause": "Инфаркт",
         "dog_gender": "male",
         "dog_dad_id": null,
         "dog_mom_id": null,
-        "dog_progress": 
-            [
-                null
-            ],
-        "dog_health":
-            [
-                null
-            ],
+        "dog_progress": [],
+        "dog_health": [],
         "dog_owner": null,
         "dog_imgs": 
             [
@@ -63,14 +61,8 @@ const dogsData = `
         "dog_gender": "female",
         "dog_dad_id": null,
         "dog_mom_id": null,
-        "dog_progress": 
-            [
-                null
-            ],
-        "dog_health":
-            [
-                null
-            ],
+        "dog_progress": [],
+        "dog_health": [],
         "dog_owner": null,
         "dog_imgs": 
             [

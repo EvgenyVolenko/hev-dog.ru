@@ -10,7 +10,14 @@ for (let i = 0; i < 7; i++) {
             dogItemTemplate.querySelector('article.dogs__item > a > img').alt = element.dog_name;
             dogItemTemplate.querySelector('article.dogs__item > a > p.dogs__item__name').textContent = element.dog_name;
             dogItemTemplate.querySelector('article.dogs__item > a > p.dogs__item__birthday').textContent = element.dog_birthday;
-            dogItemTemplate.querySelector('article.dogs__item > a').href = './dog_male.html?' + element.id;
+            dogItemTemplate.querySelector('article.dogs__item > a').href = './dog_male.html?id=' + element.id;
+
+            const itemsA = dogItemTemplate.querySelector('article.dogs__item > a');
+
+            itemsA.addEventListener('click', function () {
+                const myDogString = JSON.stringify(element);
+                localStorage.setItem('objectDog', myDogString);
+            });
 
             divDogsGallery.appendChild(dogItemTemplate);
         }
