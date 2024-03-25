@@ -552,7 +552,7 @@ li::-webkit-details-marker {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
   color: #462e25;
 }
 .header__menu__item a {
